@@ -45,3 +45,17 @@
   font-size: 25px;
   color: #282c34;
 }
+
+.title {
+  font-size: 30px;
+  text-decoration: solid 1px red;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+.style-block{
+  border:solid 1px black;
+  max-width:100vw
+}

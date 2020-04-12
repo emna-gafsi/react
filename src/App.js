@@ -1,29 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import image from  './imageInSrc.png' ;
 import './App.css';
+import video from  './Apprendre_les_saisons_en_samusant_francais.mp4' ;
+
 
 function App() {
   return (
     <div className="App">
-      <h1>my app</h1>
-      <form>
-        <label className="d-block" >
-          name:
-        </label>
-        <input type="text" className="d-block" />
-        <label className="d-block" >
-          last name:
-        </label>
-        <input type="text" className="d-block" />
-        <label className="d-block" >
-         email:
-        </label>
-        <input type="email" className="d-block" />
-    
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      <div className="style-block">
+        <h1 className="title red">EMNA GAFSI</h1>
+        <br/>
+       <img src={image} alt="InSrc"/>
+       <br/>
 
-    </div>
+        <img src="/imageInPublic.jpg" width="700px"/><br/>
+     </div>
+     <video controls src={video} type="video/mp4"></video>
+     </div>
+     
+     
   );
 }
 
